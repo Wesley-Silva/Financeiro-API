@@ -1,0 +1,12 @@
+C:\dev\Financeiro\Financeiro\Helpers\bin\Debug\net7.0\Helpers.deps.json
+C:\dev\Financeiro\Financeiro\Helpers\bin\Debug\net7.0\Helpers.dll
+C:\dev\Financeiro\Financeiro\Helpers\bin\Debug\net7.0\Helpers.pdb
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\Helpers.csproj.AssemblyReference.cache
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\Helpers.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\Helpers.AssemblyInfoInputs.cache
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\Helpers.AssemblyInfo.cs
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\Helpers.csproj.CoreCompileInputs.cache
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\Helpers.dll
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\refint\Helpers.dll
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\Helpers.pdb
+C:\dev\Financeiro\Financeiro\Helpers\obj\Debug\net7.0\ref\Helpers.dll
