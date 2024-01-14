@@ -17,6 +17,9 @@ Sistema Financeiro para gerenciar despesas. Nesta fase contém telas de cadastro
 -	UsuarioSistemaFinanceiro
 - Compra
 - ItemCompra
+  
+  ![Tela](https://github.com/Wesley-Silva/Financeiro-API/blob/master/WebApi/Imagens/Tabelas-armazenamento.jpg)
+
 
 ## Tela
 
