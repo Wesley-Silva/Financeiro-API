@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infra.Generics
+namespace Infra.Repositorio.Generics
 {
     public class RepositoryGenerics<T> : InterfaceGeneric<T>, IDisposable where T : class
     {
@@ -36,7 +36,7 @@ namespace Infra.Generics
                 data.Set<T>().Remove(Objeto);
                 await data.SaveChangesAsync();
             }
-        }        
+        }
 
         public async Task<T> GetEntityById(int Id)
         {

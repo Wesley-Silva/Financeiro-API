@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Domain.Interfaces.Generics;
+using Entities.Entidades;
 
 namespace Domain.Interfaces.ISistemaFinanaceiro
 {
-    public interface InterfaceSistemaFinanaceiro
-    {
+    public interface InterfaceSistemaFinanaceiro : InterfaceGeneric<SistemaFinanceiro>
+    {       
+        Task<IList<SistemaFinanceiro>> ListaSistemaUsuario(string emailUsuario);
     }
 }
