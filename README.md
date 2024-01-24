@@ -1,14 +1,21 @@
-# Sistema Financeiro
+# Sistema Financeiro(Gerenciar despesas)
 
-Sistema Financeiro para gerenciar despesas. Nesta fase contém telas de cadastro e manutenção de usuários 
+O sistema financeiro abrange todas as despesas a serem pagas mensalmente pelo usuário, sendo o portal central para o gerenciamento desses gastos. Dentro do sistema, o usuário realiza o cadastro de categorias, e ao associar uma despesa, vincula-a a uma categoria previamente cadastrada.
 
-### Linguagem
-- Linguagem de programação: C#
-
+### Ferramentas
+- Visual Studio 2022
+- Banco de dados SQL Server(2022)
+- Linguagem de programação: C#/CSHARP
+- SQL
+  
 ### Tecnologias
+- Framework: .NET 7
 - Identity Microsoft: Gerenciamento de usuários
-- Framework: ASP.NET 7
-- Banco de dados SQL Server
+- Linq: C#/CSHARP para Querys
+- Generics
+- JWT: Json Web Token / Apis Autenticadas
+- Dependency Injection(Singleton)
+- CQRS: Cross-Origin Resource Sharing
 
 ### Modelagem de banco de dados
 - Despesa
