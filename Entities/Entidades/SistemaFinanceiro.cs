@@ -13,7 +13,7 @@ namespace Entities.Entidades
         public int Mes { get; set; }
         public int Ano { get; set; }
         public int DiaFechamento { get; set; }
-        public int GerarCopiadespesa { get; set; }
+        public bool GerarCopiadespesa { get; set; }
         public int MesCopia { get; set; }
         public int AnoCopia { get; set; }
     }

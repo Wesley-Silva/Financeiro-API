@@ -3,7 +3,7 @@ using Entities.Entidades;
 
 namespace Domain.Interfaces.ISistemaFinanaceiro
 {
-    public interface InterfaceSistemaFinanaceiro : InterfaceGeneric<SistemaFinanceiro>
+    public interface InterfaceSistemaFinanceiro : InterfaceGeneric<SistemaFinanceiro>
     {       
         Task<IList<SistemaFinanceiro>> ListaSistemaUsuario(string emailUsuario);
     }

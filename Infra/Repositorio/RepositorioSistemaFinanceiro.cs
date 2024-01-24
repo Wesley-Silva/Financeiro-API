@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Infra.Repositorio
 {
-    public class RepositorioSistemaFinanceiro : RepositoryGenerics<SistemaFinanceiro>, InterfaceSistemaFinanaceiro
+    public class RepositorioSistemaFinanceiro : RepositoryGenerics<SistemaFinanceiro>, InterfaceSistemaFinanceiro
     {
         private readonly DbContextOptions<ContextBase> _OptionsBuilder;
 
