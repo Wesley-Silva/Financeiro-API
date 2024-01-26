@@ -24,7 +24,11 @@ O sistema financeiro abrange todas as despesas a serem pagas mensalmente pelo us
 -	UsuarioSistemaFinanceiro
 - Compra
 - ItemCompra
-  
+
+### Visão Objetos
+  ![Tela](https://github.com/Wesley-Silva/Financeiro-API/blob/master/WebApi/Imagens/Visao-objetos.jpg)
+
+### Diagrama de banco de dados
   ![Tela](https://github.com/Wesley-Silva/Financeiro-API/blob/master/WebApi/Imagens/Tabelas-armazenamento.jpg)
 
 
