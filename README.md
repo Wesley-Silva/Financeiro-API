@@ -4,10 +4,17 @@ O sistema financeiro abrange todas as despesas a serem pagas mensalmente pelo us
 
 ### Ferramentas
 - Visual Studio 2022
+- Banco de dados SQL Server(2022)
   
 ### Tecnologias
-- Banco de dados SQL Server(2022)
+- Framework: .NET 7
 - Projeto Apis(Back-End): C#/CSHARP
+- Identity Microsoft: Gerenciamento de usuários
+- Linq: C#/CSHARP para Querys
+- Generics
+- JWT: Json Web Token / Apis Autenticadas
+- Dependency Injection(Singleton)
+- CQRS: Cross-Origin Resource Sharing
 
 ## Tela
 ![Tela](https://github.com/Wesley-Silva/Financeiro-API/blob/master/WebApi/Imagens/Visao-objetos.jpg)
