@@ -6,13 +6,14 @@ O sistema financeiro abrange todas as despesas a serem pagas mensalmente pelo us
 - Visual Studio 2022
   
 ### Tecnologias
-- Node: v20.11.0
-- Angular: ^15.2.0
 - Banco de dados SQL Server(2022)
 - Projeto Apis(Back-End): C#/CSHARP
 
 ## Tela
-  Em breve...
+![Tela](https://github.com/Wesley-Silva/Financeiro-API/blob/master/WebApi/Imagens/Visao-objetos.jpg)
+![Tela](https://github.com/Wesley-Silva/Financeiro-API/blob/master/WebApi/Imagens/Tabelas-armazenamento.jpg)
+![Tela](https://github.com/Wesley-Silva/Financeiro-API/blob/master/WebApi/Imagens/webapi-01.jpg)
+![Tela](https://github.com/Wesley-Silva/Financeiro-API/blob/master/WebApi/Imagens/webapi.jpg)
 
 ## Sobre
 
