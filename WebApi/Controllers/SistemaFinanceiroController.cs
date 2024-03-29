@@ -8,7 +8,7 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class SistemaFinanceiroController : ControllerBase
     {
         private readonly InterfaceSistemaFinanceiro _interfaceSistemaFinanceiro;
@@ -21,9 +21,9 @@ namespace WebApi.Controllers
             _iSistemaFinanceiroServico = iSistemaFinanceiroServico;
         }
 
-        [HttpGet("/api/ListaSistemaFinanceiro")]
+        [HttpGet("/api/ListaSistemaUsuario")]
         [Produces("application/json")]
-        public async Task<object> ListaSistemaFinanceiro(string emailUsuario)
+        public async Task<object> ListaSistemaUsuario(string emailUsuario)
         {
             return await _interfaceSistemaFinanceiro.ListaSistemaUsuario(emailUsuario);
         }
@@ -34,7 +34,8 @@ namespace WebApi.Controllers
         {
             await _iSistemaFinanceiroServico.AdicionarSistemaFinanceiro(sistemaFinanceiro);
 
-            return Task.FromResult(sistemaFinanceiro);
+            return sistemaFinanceiro;
+            //return Task.FromResult(sistemaFinanceiro);
         }
 
         [HttpPost("/api/AtualizarSistemaFinanceiro")]
